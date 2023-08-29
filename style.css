@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#lang{
+  color: #757575;
+  font-size:12px;
+  margin-top: 15px;
+  border: none;
+  background-color: #ffff;
+  outline: 1px solid #ffff;
+}
+
+
+.logo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+#logo{
+   width: 230px;
+}
+
+.fb-log{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fb-log a{
+    color :white;
+    background-color:#0195f7 ;
+    boder: 1px solid #0195f7;
+    border-radius:8px ;
+    padding: 8px 43px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.style{
+    color:#737373;
+    text-align: center;
+    height: 0.9px;
+    margin-top:30px ;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.style:before{
+    content: " ";
+    display: block;
+    height: 1px;
+    width :110px;
+    position: absolute;
+    top:243px;
+    right:40px;
+    background-color:rgba(0,0,0,0.2) ;
+}
+
+.style:after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width :110px;
+    position: absolute;
+    top:243px;
+    left:40px;
+    background-color:rgba(0,0,0,0.2) ;
+}
+
+.submit{
+    text-align: center;
+    margin: 35px 0;
+}
+
+
+input{
+    width: 80%;
+  padding: 10px 20px;
+  margin: 3px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+  font-size: 12px;
+}
+
+#text:hover{
+    outline: 0.3px solid black;
+}
+
+.forget{
+    float: right;
+    margin:-20px 35px ;
+    
+}
+
+.forget a{
+    color:#0694f1;
+    font-size: 14px;
+    text-decoration: none;
+  
+    }
+    
+.log {
+    
+    text-align: center;
+    margin-top: 60px;
+   
+}
+
+.log a{
+    color :white;
+    background-color:#4db5fa ;
+    boder: 1px solid #4db5fa;
+    border-radius:8px ;
+    padding: 6px 120px;
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.sign{
+    float: center;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+.sign p{
+    font-size: 15px;
+    color: #737373;
+    display: inline-block;
+    text-align: center;
+}
+
+.sign a{
+    color:#0793f0;
+    text-decoration :none;
+    font-weight:bold;
+    font-size:15px;
+   }
+   
+.ftr{
+    width: 99%;
+    height:60px;
+    background-color:#fafafa ;
+    margin:115px 0 0 0 ;
+    border:1px solid #dbdbdb;
+}
+
+.ftr p{
+   color:#6a7784;
+   font-size:12px;
+   line-height:-10;
+}
+
+#col{
+   color: rgba(252,26,83,255);
+}
